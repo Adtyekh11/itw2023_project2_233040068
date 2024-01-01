@@ -30,6 +30,7 @@ html ::-webkit-scrollbar{
     width: 100%;
     position: fixed;
     z-index: 2;
+
     
     
 }
@@ -39,11 +40,11 @@ html ::-webkit-scrollbar{
     padding: 10px 20px;
     color: white;
     font-weight: bold;
+    margin-left: 50px;
 }
 
-
 .navbar-nav{
-    margin-left: 50px;
+    margin-left: 500px;
 }
 
 .nav-item .nav-link{
@@ -81,6 +82,11 @@ html ::-webkit-scrollbar{
 #home{
     width: 100%;
     height: 100vh;
+    background-image: url(../img/home.jpg);
+    background-size: cover;
+
+    
+
 }
 
 
@@ -91,26 +97,37 @@ html ::-webkit-scrollbar{
 
 
 #home .content h1{
+    margin-left: 100px;
     font-size: 50px;
-    color: black;
+    color:black;
     font-weight: bold;
   
 }
 
 #home span{
-    color: #b2744c;
+    color: white;
 }
 
 
+
 #home .content p{
+    margin-left: 100px;
     margin-top: 10px;
     color: black;
+}
+
+#home .content h4{
+    color: white;
+    margin-left: 1000px;
+    margin-top: 70px;
+    font-size: 20px;
 }
 
 
 #btn{
     width: 150px;
     height: 36px;
+    margin-left: 100px;
     margin-top: 20px;
     background: black;
     border-radius: 5px;
@@ -133,7 +150,7 @@ html ::-webkit-scrollbar{
 /* about */
 #about{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
 }
 
 #about .container{
@@ -150,7 +167,7 @@ html ::-webkit-scrollbar{
 }
 
 .heading span{
-    color: white;
+    color: #b2744c;
 }
 
 #about .card{
@@ -190,14 +207,52 @@ html ::-webkit-scrollbar{
     .heading span{
         color: #b2744c;
     }
+
+    #home .content h4{
+        color: white;
+        margin-left: 50px;
+        /* margin-top: 0px; */
+        /* margin-bottom: 50px; */
+        /* font-size: 30px; */
+    }
 }
 @media screen and (max-width:768px) {
     #about p{
         font-size: 15px;
     }
 
-    .heading span{
-        color: white;   
+    #home .content h1{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+
+    #home .content p{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+
+    #product .container{
+        margin-top: 50px;
+    }
+
+
+    .navbar-nav{
+        margin-left: 10px;
+    }
+
+    .nav-item .nav-link:hover{
+        background-color: transparent;
+        color: white;
+    }
+
+
+    #home .content h4{
+        color: white;
+        margin-left: 130px;
+        margin-top: 20px;
+        font-size: 10px;
     }
 }
 
@@ -219,50 +274,49 @@ html ::-webkit-scrollbar{
     color: black;
 }
 
-  .heading-2{
+.heading-2{
     margin-top: 80px;
     text-align: center;
     font-size: 30px;
     color: #b2744c;
     font-weight: bold;
     border-bottom: 2px solid #b2744c;
-  }
+}
 
-
-  #container-2{
+#container-2{
     margin-top: 30px;
-  }
+}
 
-  #product .card{
-    box-shadow: rgb(149, 157, 165, 0,2) 0px 8px 24px;
-  }
+#product .card{
+    box-shadow: rgb(149, 157, 165, 0,2) 2px 8px 24px;
+}
 
-  div .col-md-3 {
+div .col-md-3 {
     margin-top: 20px;
-  }
+}
 
-  .star i{
-    color: #b2744c;
-  }
+.star i{
+    color: black;
+}
 
-  #product h3{
+#product h3{
     text-align: center;
-    color: #b2744c;
+    color: black;
     margin-top: 10px;
     font-size: 24px;
-  }
+}
 
 
-  #product p{
+#product p{
     font-size: 16px;
-    color: #b2744c;
+    color: black;
     padding-top: 10px;
-  }
+}
 
-  #product p span{
+#product p span{
     float: right;
     cursor: pointer;
-  }
+}
 /* product end */
 
 
